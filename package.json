@@ -1,12 +1,13 @@
 {
-"name": "uapdhyayravi.com",
+"name": "skeleton-website",
   "version": "10.0.0",
-  "description": "Project for personal website of Ravi Upadhyay. This website will be used as tool to connect with the world and do research and experiments.",
+  "description": "Skeleton website to bootstrap new projects.",
   "private": true,
   "keywords": [
-    "upadhyayravi.com",
-    "ravi",
-    "upadhyay"
+    "skeleton-website",
+    "Astro",
+    "Tailwind CSS",
+    "Lit"
   ],
   "type": "module",
   "license": "Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)",
