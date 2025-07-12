@@ -1,0 +1,23 @@
+---
+import '../styles/main.css';
+import UpadhyayRaviHeader from '../web-components/UpadhyayRaviHeader.js';
+import UpadhyayRaviFooter from '../web-components/UpadhyayRaviFooter.js';
+
+customElements.define('upadhyayravi-header', UpadhyayRaviHeader);
+customElements.define('upadhyayravi-footer', UpadhyayRaviFooter);
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Personal blog and portfolio of Ravi Upadhyay" />
+    <title>Ravi Upadhyay</title>
+  </head>
+  <body style="background-color: var(--color-off-white)">
+    <upadhyayravi-header></upadhyayravi-header>
+    <slot />
+    <upadhyayravi-footer></upadhyayravi-footer>
+  </body>
+</html>

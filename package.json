@@ -1,0 +1,31 @@
+{
+"name": "uapdhyayravi.com",
+  "version": "10.0.0",
+  "description": "Project for personal website of Ravi Upadhyay. This website will be used as tool to connect with the world and do research and experiments.",
+  "private": true,
+  "keywords": [
+    "upadhyayravi.com",
+    "ravi",
+    "upadhyay"
+  ],
+  "type": "module",
+  "license": "Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)",
+  "author": "Ravi Upadhyay (raviupadhyay.bkn@gmail.com)",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^5.11.0",
+    "lit": "^3.3.1"
+  },
+  "devDependencies": {
+    "@astrojs/lit": "^4.3.0",
+    "@astrojs/tailwind": "^6.0.2",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.0.24"
+  }
+}
